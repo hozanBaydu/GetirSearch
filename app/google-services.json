@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500053564619",
+    "project_id": "getir-bcb6f",
+    "storage_bucket": "getir-bcb6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500053564619:android:07a800a0fbccf011080f4e",
+        "android_client_info": {
+          "package_name": "com.hozanbaydu.getirsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500053564619-37jed6pmtk6gcrcgo3uf3onc6g5too44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3VL3jaHBiiktBl3TtyuNP7TjFYmCpYoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500053564619-37jed6pmtk6gcrcgo3uf3onc6g5too44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
