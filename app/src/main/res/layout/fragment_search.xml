@@ -1,6 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/searchAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/getiryemek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchAppBarLayout">
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColorHint="@color/yellow" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="164dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@color/purple_500"
+            android:max="100"
+            android:progress="2"
+            android:progressBackgroundTint="@color/white"
+
+            >
+
+        </SeekBar>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/nametext"
+            android:textColor="@color/yellow"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="0"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstLayout">
+
+        <EditText
+            android:id="@+id/nameText2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColorHint="@color/yellow" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="164dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@color/purple_500"
+            android:max="100"
+            android:progress="2"
+            android:progressBackgroundTint="@color/white"
+
+            >
+
+        </SeekBar>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondLayout">
+
+        <EditText
+            android:id="@+id/nameText3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColorHint="@color/yellow" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="164dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@color/purple_500"
+            android:max="100"
+            android:progress="2"
+            android:progressBackgroundTint="@color/white"
+
+            >
+
+        </SeekBar>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/forthLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdLayout">
+
+        <EditText
+            android:id="@+id/nameText4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColorHint="@color/yellow" />
+
+        <SeekBar
+            android:id="@+id/seekBar4"
+            android:layout_width="164dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@color/purple_500"
+            android:max="100"
+            android:progress="2"
+            android:progressBackgroundTint="@color/white"
+
+            >
+
+        </SeekBar>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/nametext"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/searchFikir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/fikirgetir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </ImageView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
