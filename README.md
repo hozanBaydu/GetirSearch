@@ -157,7 +157,7 @@ fun resultData(restaurantNameText: TextView,foodNameTextView: TextView,priceText
     }
 ```
 
-Kodlar uzun olduğu için hepsini burda açıklamam mümkün olmadı.Tüm kodllara proje dosyasından ulaşabilirsiniz.Okuduğunuz için teşekkür ederim.
+Kodlar uzun olduğu için hepsini burada açıklamam mümkün olmadı.Tüm kodlara proje dosyasından ulaşabilirsiniz.Okuduğunuz için teşekkür ederim.
 
 Uygulamayı yazan:Hozan BAYDU
 
