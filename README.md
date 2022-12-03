@@ -1,5 +1,5 @@
 # GetirSearch
-Getir yemek uygulaması için içeriğe göre yemek öneri özelliği eklenmesi.
+Getir yemek uygulaması için,içeriğe göre yemek öneri özelliği eklenmesi.
 
 Aşağıdaki videodan uygulamanın son halini görebilirsiniz.
 
