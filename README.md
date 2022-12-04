@@ -161,7 +161,7 @@ Kodlar uzun olduğu için hepsini burada açıklamam mümkün olmadı.Tüm kodla
 
 Uygulamayı yazan:Hozan BAYDU
 
-Tasarım:Adobexd,Canva
+Tasarım:Adobe xd,Canva
 
 Tarih:20.11.2022
 
